@@ -16,7 +16,7 @@ Droid_Alligator-v1.0
 ```
 $ git clone https://github.com/supremeLame/Droid_Alligator.git
 $ chmod +x Droid_alligator_v1.0.sh
-$ chmod +x Droid_alligator_v1.0.sh -h
+$ Droid_alligator_v1.0.sh -h
 ___________              .__                _________              
 \__    ___/_  _  __ ____ |  |___  __ ____  /   _____/ ____   ____  
   |    |  \ \/ \/ // __ \|  |\  \/ // __ \ \_____  \_/ __ \_/ ___\ 
@@ -44,10 +44,10 @@ Signing an apk: ./aligator.sh -s yourkeystore.ks target_apk.apk
 Assesing dynamically the apk: ./alligator.sh -a
 Deleting generated files: ./alligator.sh -r
 ```
-**Step1:** Decode the APK using the -d option
-**Step2:** Manually edit the APK
-**Step3:** Build the apk using the -b option
-**Step4:** Sign the apk using the -s option
+1. Decode the APK using the -d option
+2. Manually edit the APK
+3. Build the apk using the -b option
+4. Sign the apk using the -s option
 
 ## Contributors
 ---
